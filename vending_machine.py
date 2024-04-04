@@ -89,7 +89,7 @@ class VendingMachine:
         self.show_selected_drinks()
         self.show_change()
 
-
-machine = VendingMachine()
-machine.main()
+if __name__ == "__main__":
+    machine = VendingMachine()
+    machine.main()
 
